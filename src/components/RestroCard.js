@@ -1,7 +1,7 @@
 
 import { IMG_CDN_URL } from "../config";
 
-const RestroCard = ({ cloudinaryImageId, name, cuisines, costForTwoString }) => {
+const RestroCard = ({ cloudinaryImageId, name, cuisines, locality }) => {
 
 
     return (
@@ -10,7 +10,7 @@ const RestroCard = ({ cloudinaryImageId, name, cuisines, costForTwoString }) => 
         <div className="card-info">
           <h2>{name}</h2>
           <h3>{cuisines.join(", ")}</h3>
-          <h4>{costForTwoString}</h4>
+          <h4>{locality}</h4>
         </div>
       </div>)
   }

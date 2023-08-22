@@ -26,35 +26,7 @@ body {
   width: 100px;
   padding: 10px 0px;
 }
-
-.loc{
-  display: -ms-flexbox;
-    display: flex;
-    -ms-flex-align: center;
-    align-items: center;
-    margin-left: 30px;
-    max-width: 300px;
-    height: 30px;
-    cursor: pointer;
-    margin-bottom: -1px;
-    padding-right: 10px;
-}
-
-.loc-home{
-  
-  font-weight: 700;
-  color: #3d4152;
-  float: left;
-}
-
-.loc-home-home{
-  
-  display: block;
-  min-width: 30px;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
-}
+ 
 
 .nav-items{
     display: flex;
@@ -106,6 +78,7 @@ body {
 
 .card img {
   width: 100%;
+  
   border-radius: 15px;
 }
 

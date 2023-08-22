@@ -49,7 +49,7 @@ const Body = () => {
 
       <div className="Restro-List">
         {restaurants.map((restaurant) => {
-          return <RestroCard {...restaurant.data} />;
+          return <RestroCard {...restaurant.info} />;
         })}
       </div>
     </>

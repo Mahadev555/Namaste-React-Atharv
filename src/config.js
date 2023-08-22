@@ -4,1220 +4,1763 @@ export const IMG_CDN_URL = "https://res.cloudinary.com/swiggy/image/upload/fl_lo
 
 
 export const RestoList = [
-    {
-      type: "restaurant",
-      data: {
-        type: "F",
-        id: "74453",
-        name: "Domino's Pizza",
-        uuid: "87727dbd-7f2b-4857-9763-359624165845",
-        city: "21",
-        area: "Athwa",
-        totalRatingsString: "1000+ ratings",
-        cloudinaryImageId: "bz9zkh2aqywjhpankb07",
-        cuisines: ["Pizzas", "Hot coffe"],
-        tags: [],
-        costForTwo: 40000,
-        costForTwoString: "₹400 FOR TWO",
-        deliveryTime: 45,
-        minDeliveryTime: 45,
-        maxDeliveryTime: 45,
-        slaString: "45 MINS",
-        lastMileTravel: 0,
-        slugs: {
-          restaurant: "dominos-pizza-majura-nondh-test_surat",
-          city: "surat",
-        },
-        cityState: "21",
-        address:
-          "Shop 32 To 35, Sheetal Shopping Square,Near Lb Turning Point, Bhatar Road,MAJURA NONDH, Surat,GUJARAT-395001",
-        locality: "Bhatar Road",
-        parentId: 2456,
-        unserviceable: false,
-        veg: true,
-        select: false,
-        favorite: false,
-        tradeCampaignHeaders: [],
-        aggregatedDiscountInfo: {
-          header: "FREE DELIVERY",
-          shortDescriptionList: [
-            {
-              meta: "FREE DELIVERY",
-              discountType: "FREE_DELIVERY",
-              operationType: "RESTAURANT",
-            },
+    
+      {
+        "info": {
+          "id": "734416",
+          "name": "ANNA",
+          "cloudinaryImageId": "17470a3f48b1529ba3e45b7b35ffcc62",
+          "locality": "Shivajinagar",
+          "areaName": "Shivaji Nagar",
+          "costForTwo": "₹200 for two",
+          "cuisines": [
+            "South Indian",
+            "Fast Food",
+            "Chaat",
+            "Beverages"
           ],
-          descriptionList: [
-            {
-              meta: "FREE DELIVERY",
-              discountType: "FREE_DELIVERY",
-              operationType: "RESTAURANT",
+          "avgRating": 4.3,
+          "feeDetails": {
+            "restaurantId": "734416",
+            "fees": [
+              {
+                "name": "BASE_DISTANCE",
+                "fee": 5000
+              },
+              {
+                "name": "BASE_TIME"
+              },
+              {
+                "name": "ANCILLARY_SURGE_FEE"
+              }
+            ],
+            "totalFee": 5000
+          },
+          "parentId": "33765",
+          "avgRatingString": "4.3",
+          "totalRatingsString": "20+",
+          "promoted": true,
+          "adTrackingId": "cid=7940987~p=1~eid=0000018a-1ba4-4d91-043e-41f900e5011b~srvts=1692680867217~45995",
+          "sla": {
+            "deliveryTime": 31,
+            "lastMileTravel": 5,
+            "serviceability": "SERVICEABLE",
+            "slaString": "31 mins",
+            "lastMileTravelString": "5.0 km",
+            "iconType": "ICON_TYPE_EMPTY"
+          },
+          "availability": {
+            "nextCloseTime": "2023-08-22 22:30:00",
+            "opened": true
+          },
+          "badges": {
+            
+          },
+          "isOpen": true,
+          "type": "F",
+          "badgesV2": {
+            "entityBadges": {
+              "textBased": {
+                
+              },
+              "imageBased": {
+                
+              },
+              "textExtendedBadges": {
+                
+              }
+            }
+          },
+          "loyaltyDiscoverPresentationInfo": {
+            "badgeType": "BADGE_TYPE_OFFER_PACK",
+            "offerSubText": "with offer pack",
+            "nonSwiggyOneFreedelMessage": "FREE DELIVERY"
+          },
+          "orderabilityCommunication": {
+            "title": {
+              
             },
-          ],
-          subHeader: "",
-          headerType: 0,
-          superFreedel: "",
-        },
-        aggregatedDiscountInfoV2: {
-          header: "",
-          shortDescriptionList: [
-            {
-              meta: "Free Delivery",
-              discountType: "FREE_DELIVERY",
-              operationType: "RESTAURANT",
+            "subTitle": {
+              
             },
-          ],
-          descriptionList: [
-            {
-              meta: "FREE DELIVERY",
-              discountType: "FREE_DELIVERY",
-              operationType: "RESTAURANT",
+            "message": {
+              
             },
-          ],
-          subHeader: "",
-          headerType: 0,
-          superFreedel: "",
+            "customIcon": {
+              
+            }
+          },
+          "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+              "lottie": {
+                
+              },
+              "video": {
+                
+              }
+            }
+          },
+          "reviewsSummary": {
+            
+          },
+          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+          "isNewlyOnboarded": true,
+          "restaurantOfferPresentationInfo": {
+            
+          }
         },
-        chain: [],
-        feeDetails: {
-          fees: [],
-          totalFees: 0,
-          message: "",
-          title: "",
-          amount: "",
-          icon: "",
+        "analytics": {
+          
         },
-        availability: {
-          opened: true,
-          nextOpenMessage: "",
-          nextCloseMessage: "",
-        },
-        longDistanceEnabled: 0,
-        rainMode: "NONE",
-        thirdPartyAddress: false,
-        thirdPartyVendor: "",
-        adTrackingID: "",
-        badges: {
-          imageBased: [],
-          textBased: [],
-          textExtendedBadges: [],
-        },
-        lastMileTravelString: "2.1 kms",
-        hasSurge: false,
-        sla: {
-          restaurantId: "74453",
-          deliveryTime: 45,
-          minDeliveryTime: 45,
-          maxDeliveryTime: 45,
-          lastMileTravel: 0,
-          lastMileDistance: 0,
-          serviceability: "SERVICEABLE",
-          rainMode: "NONE",
-          longDistance: "NOT_LONG_DISTANCE",
-          preferentialService: false,
-          iconType: "EMPTY",
-        },
-        promoted: false,
-        avgRating: "4.0",
-        totalRatings: 1000,
-        new: false,
+        "cta": {
+          "link": "swiggy://menu?restaurant_id=734416",
+          "text": "RESTAURANT_MENU",
+          "type": "DEEPLINK"
+        }
       },
-      subtype: "basic",
-    },
-  
-    {
-      type: "restaurant",
-      data: {
-        type: "F",
-        id: "76858",
-        name: "Feeling Hungry",
-        uuid: "45f9ea54-f3cf-4f6b-8d85-e3468657fe51",
-        city: "21",
-        area: "Athwa",
-        totalRatingsString: "1000+ ratings",
-        cloudinaryImageId: "oxsb5mr1xsmhnxhunjsc",
-        cuisines: ["Chinese", "North Indian", "Biryani"],
-        tags: [],
-        costForTwo: 2000,
-        costForTwoString: "₹20 FOR TWO",
-        deliveryTime: 35,
-        minDeliveryTime: 30,
-        maxDeliveryTime: 40,
-        slaString: "30-40 MINS",
-        lastMileTravel: 3.700000047683716,
-        slugs: {
-          restaurant: "feeling-hungry-adajan-gam-adajan",
-          city: "surat",
-        },
-        cityState: "21",
-        address:
-          "GF shop no 1, Babubhai Chambers, Beside Sardar Bridge , Athwagate, surat",
-        locality: "Royal Residency, Adajan Gam",
-        parentId: 79237,
-        unserviceable: true,
-        veg: true,
-        select: false,
-        favorite: false,
-        tradeCampaignHeaders: [],
-        aggregatedDiscountInfo: {
-          header: "FREE DELIVERY",
-          shortDescriptionList: [
-            {
-              meta: "FREE DELIVERY",
-              discountType: "FREE_DELIVERY",
-              operationType: "RESTAURANT",
-            },
+      {
+        "info": {
+          "id": "23732",
+          "name": "McDonald's",
+          "cloudinaryImageId": "ee5f8e06b300efc07c9fe3f4df40dfc4",
+          "locality": "Saluja Chambers",
+          "areaName": "Satara Road",
+          "costForTwo": "₹400 for two",
+          "cuisines": [
+            "Burgers",
+            "Beverages",
+            "Cafe",
+            "Desserts"
           ],
-          descriptionList: [
-            {
-              meta: "FREE DELIVERY",
-              discountType: "FREE_DELIVERY",
-              operationType: "RESTAURANT",
+          "avgRating": 4.2,
+          "feeDetails": {
+            "restaurantId": "23732",
+            "fees": [
+              {
+                "name": "BASE_DISTANCE",
+                "fee": 3200
+              },
+              {
+                "name": "BASE_TIME"
+              },
+              {
+                "name": "ANCILLARY_SURGE_FEE"
+              }
+            ],
+            "totalFee": 3200
+          },
+          "parentId": "630",
+          "avgRatingString": "4.2",
+          "totalRatingsString": "10K+",
+          "sla": {
+            "deliveryTime": 22,
+            "lastMileTravel": 1.9,
+            "serviceability": "SERVICEABLE",
+            "slaString": "22 mins",
+            "lastMileTravelString": "1.9 km",
+            "iconType": "ICON_TYPE_EMPTY"
+          },
+          "availability": {
+            "nextCloseTime": "2023-08-22 23:45:00",
+            "opened": true
+          },
+          "badges": {
+            
+          },
+          "isOpen": true,
+          "type": "F",
+          "badgesV2": {
+            "entityBadges": {
+              "textBased": {
+                
+              },
+              "imageBased": {
+                
+              },
+              "textExtendedBadges": {
+                
+              }
+            }
+          },
+          "aggregatedDiscountInfoV3": {
+            "header": "40% OFF",
+            "subHeader": "UPTO ₹80"
+          },
+          "loyaltyDiscoverPresentationInfo": {
+            "badgeType": "BADGE_TYPE_OFFER_PACK",
+            "offerSubText": "with offer pack",
+            "nonSwiggyOneFreedelMessage": "FREE DELIVERY"
+          },
+          "orderabilityCommunication": {
+            "title": {
+              
             },
-          ],
-          subHeader: "",
-          headerType: 0,
-          superFreedel: "",
-        },
-        aggregatedDiscountInfoV2: {
-          header: "",
-          shortDescriptionList: [
-            {
-              meta: "Free Delivery",
-              discountType: "FREE_DELIVERY",
-              operationType: "RESTAURANT",
+            "subTitle": {
+              
             },
-          ],
-          descriptionList: [
-            {
-              meta: "FREE DELIVERY",
-              discountType: "FREE_DELIVERY",
-              operationType: "RESTAURANT",
+            "message": {
+              
             },
-          ],
-          subHeader: "",
-          headerType: 0,
-          superFreedel: "",
+            "customIcon": {
+              
+            }
+          },
+          "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+              "lottie": {
+                
+              },
+              "video": {
+                
+              }
+            }
+          },
+          "reviewsSummary": {
+            
+          },
+          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+          "restaurantOfferPresentationInfo": {
+            
+          }
         },
-        chain: [],
-        feeDetails: {
-          fees: [],
-          totalFees: 0,
-          message: "",
-          title: "",
-          amount: "",
-          icon: "",
+        "analytics": {
+          
         },
-        availability: {
-          opened: true,
-          nextOpenMessage: "",
-          nextCloseMessage: "",
-        },
-        longDistanceEnabled: 0,
-        rainMode: "NONE",
-        thirdPartyAddress: false,
-        thirdPartyVendor: "",
-        adTrackingID: "",
-        badges: {
-          imageBased: [],
-          textBased: [],
-          textExtendedBadges: [],
-        },
-        lastMileTravelString: "3.7 kms",
-        hasSurge: false,
-        sla: {
-          restaurantId: "76858",
-          deliveryTime: 35,
-          minDeliveryTime: 30,
-          maxDeliveryTime: 40,
-          lastMileTravel: 3.700000047683716,
-          lastMileDistance: 0,
-          serviceability: "SERVICEABLE_WITH_BANNER",
-          rainMode: "NONE",
-          longDistance: "NOT_LONG_DISTANCE",
-          preferentialService: false,
-          iconType: "EMPTY",
-        },
-        promoted: false,
-        avgRating: "3.2",
-        totalRatings: 1000,
-        new: false,
+        "cta": {
+          "link": "swiggy://menu?restaurant_id=23732",
+          "text": "RESTAURANT_MENU",
+          "type": "DEEPLINK"
+        }
       },
-      subtype: "basic",
-    },
-    {
-      type: "restaurant",
-      data: {
-        type: "F",
-        id: "617279",
-        name: "Malaxmi Fast Food",
-        uuid: "4848cb1b-b1c4-4a6e-9a6d-f96b781357db",
-        city: "21",
-        area: "Adajan",
-        totalRatingsString: "20+ ratings",
-        cloudinaryImageId: "agkm7cflq72tkualhstb",
-        cuisines: ["Fast Food", "Pizzas", "Snacks", "Beverages"],
-        tags: [],
-        costForTwo: 20000,
-        costForTwoString: "₹200 FOR TWO",
-        deliveryTime: 44,
-        minDeliveryTime: 40,
-        maxDeliveryTime: 50,
-        slaString: "40-50 MINS",
-        lastMileTravel: 9.100000381469727,
-        slugs: {
-          restaurant: "mahalaxmi-fast-food-adajan-adajan-2",
-          city: "surat",
-        },
-        cityState: "21",
-        address: "shop no 15,palanpur food zone,opp.sai trith,pal gam suart",
-        locality: "Palanpur Food Zone",
-        parentId: 373635,
-        unserviceable: true,
-        veg: false,
-        select: false,
-        favorite: false,
-        tradeCampaignHeaders: [],
-        aggregatedDiscountInfo: {
-          header: "FREE DELIVERY",
-          shortDescriptionList: [
-            {
-              meta: "FREE DELIVERY",
-              discountType: "FREE_DELIVERY",
-              operationType: "RESTAURANT",
-            },
+      {
+        "info": {
+          "id": "17679",
+          "name": "Subway",
+          "cloudinaryImageId": "1ace5fa65eff3e1223feb696c956b38b",
+          "locality": "Dnyaneshwar Society",
+          "areaName": "Dhankawadi",
+          "costForTwo": "₹350 for two",
+          "cuisines": [
+            "Healthy Food",
+            "Salads",
+            "Snacks",
+            "Desserts",
+            "Beverages"
           ],
-          descriptionList: [
-            {
-              meta: "FREE DELIVERY",
-              discountType: "FREE_DELIVERY",
-              operationType: "RESTAURANT",
+          "avgRating": 3.9,
+          "feeDetails": {
+            "restaurantId": "17679",
+            "fees": [
+              {
+                "name": "BASE_DISTANCE",
+                "fee": 3200
+              },
+              {
+                "name": "BASE_TIME"
+              },
+              {
+                "name": "ANCILLARY_SURGE_FEE"
+              }
+            ],
+            "totalFee": 3200
+          },
+          "parentId": "2",
+          "avgRatingString": "3.9",
+          "totalRatingsString": "10K+",
+          "sla": {
+            "deliveryTime": 27,
+            "lastMileTravel": 0.7,
+            "serviceability": "SERVICEABLE",
+            "slaString": "27 mins",
+            "lastMileTravelString": "0.7 km",
+            "iconType": "ICON_TYPE_EMPTY"
+          },
+          "availability": {
+            "nextCloseTime": "2023-08-22 23:59:00",
+            "opened": true
+          },
+          "badges": {
+            
+          },
+          "isOpen": true,
+          "type": "F",
+          "badgesV2": {
+            "entityBadges": {
+              "textBased": {
+                
+              },
+              "imageBased": {
+                
+              },
+              "textExtendedBadges": {
+                
+              }
+            }
+          },
+          "aggregatedDiscountInfoV3": {
+            "header": "40% OFF",
+            "subHeader": "UPTO ₹80"
+          },
+          "loyaltyDiscoverPresentationInfo": {
+            "badgeType": "BADGE_TYPE_OFFER_PACK",
+            "offerSubText": "with offer pack",
+            "nonSwiggyOneFreedelMessage": "FREE DELIVERY"
+          },
+          "orderabilityCommunication": {
+            "title": {
+              
             },
-          ],
-          subHeader: "",
-          headerType: 0,
-          superFreedel: "",
-        },
-        aggregatedDiscountInfoV2: {
-          header: "",
-          shortDescriptionList: [
-            {
-              meta: "Free Delivery",
-              discountType: "FREE_DELIVERY",
-              operationType: "RESTAURANT",
+            "subTitle": {
+              
             },
-          ],
-          descriptionList: [
-            {
-              meta: "FREE DELIVERY",
-              discountType: "FREE_DELIVERY",
-              operationType: "RESTAURANT",
+            "message": {
+              
             },
-          ],
-          subHeader: "",
-          headerType: 0,
-          superFreedel: "",
+            "customIcon": {
+              
+            }
+          },
+          "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+              "lottie": {
+                
+              },
+              "video": {
+                
+              }
+            }
+          },
+          "reviewsSummary": {
+            
+          },
+          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+          "restaurantOfferPresentationInfo": {
+            
+          }
         },
-        chain: [],
-        feeDetails: {
-          fees: [],
-          totalFees: 0,
-          message: "",
-          title: "",
-          amount: "",
-          icon: "",
+        "analytics": {
+          
         },
-        availability: {
-          opened: true,
-          nextOpenMessage: "",
-          nextCloseMessage: "",
-        },
-        longDistanceEnabled: 0,
-        rainMode: "NONE",
-        thirdPartyAddress: false,
-        thirdPartyVendor: "",
-        adTrackingID: "",
-        badges: {
-          imageBased: [],
-          textBased: [],
-          textExtendedBadges: [],
-        },
-        lastMileTravelString: "9.1 kms",
-        hasSurge: false,
-        sla: {
-          restaurantId: "617279",
-          deliveryTime: 44,
-          minDeliveryTime: 40,
-          maxDeliveryTime: 50,
-          lastMileTravel: 9.100000381469727,
-          lastMileDistance: 0,
-          serviceability: "SERVICEABLE_WITH_BANNER",
-          rainMode: "NONE",
-          longDistance: "NOT_LONG_DISTANCE",
-          preferentialService: false,
-          iconType: "EMPTY",
-        },
-        promoted: false,
-        avgRating: "4.0",
-        totalRatings: 20,
-        new: false,
+        "cta": {
+          "link": "swiggy://menu?restaurant_id=17679",
+          "text": "RESTAURANT_MENU",
+          "type": "DEEPLINK"
+        }
       },
-      subtype: "basic",
-    },
-    {
-      type: "restaurant",
-      data: {
-        type: "F",
-        id: "469264",
-        name: "Dessert House",
-        uuid: "7a320917-c577-49cb-875a-1e585a3adbc1",
-        city: "21",
-        area: "Piplod",
-        totalRatingsString: "Too Few Ratings",
-        cloudinaryImageId: "jegpumsjcmomksbr2sxr",
-        cuisines: ["Desserts", "Ice Cream"],
-        tags: [],
-        costForTwo: 15000,
-        costForTwoString: "₹150 FOR TWO",
-        deliveryTime: 27,
-        minDeliveryTime: 25,
-        maxDeliveryTime: 35,
-        slaString: "25-35 MINS",
-        lastMileTravel: 6.199999809265137,
-        slugs: {
-          restaurant: "dessert-house-piplod-piplod",
-          city: "surat",
-        },
-        cityState: "21",
-        address:
-          "SHOP NO 2, MARVELLA CORRIDOR OPP. C B PATEL HEALTH CLUB V.I.P ROAD, VESU",
-        locality: "Piplod",
-        parentId: 71430,
-        unserviceable: true,
-        veg: false,
-        select: false,
-        favorite: false,
-        tradeCampaignHeaders: [],
-        aggregatedDiscountInfo: {
-          header: "FREE DELIVERY",
-          shortDescriptionList: [
-            {
-              meta: "FREE DELIVERY",
-              discountType: "FREE_DELIVERY",
-              operationType: "RESTAURANT",
-            },
+      {
+        "info": {
+          "id": "64313",
+          "name": "Bedekar Misal",
+          "cloudinaryImageId": "s7iaru1tltotpdqnk8fa",
+          "locality": "Budhwar Peth",
+          "areaName": "Shaniwar Peth",
+          "costForTwo": "₹400 for two",
+          "cuisines": [
+            "Maharashtrian"
           ],
-          descriptionList: [
-            {
-              meta: "FREE DELIVERY",
-              discountType: "FREE_DELIVERY",
-              operationType: "RESTAURANT",
+          "avgRating": 4.5,
+          "veg": true,
+          "feeDetails": {
+            "restaurantId": "64313",
+            "fees": [
+              {
+                "name": "BASE_DISTANCE",
+                "fee": 4400
+              },
+              {
+                "name": "BASE_TIME"
+              },
+              {
+                "name": "ANCILLARY_SURGE_FEE"
+              }
+            ],
+            "totalFee": 4400
+          },
+          "parentId": "42915",
+          "avgRatingString": "4.5",
+          "totalRatingsString": "10K+",
+          "sla": {
+            "deliveryTime": 25,
+            "lastMileTravel": 4,
+            "serviceability": "SERVICEABLE",
+            "slaString": "25 mins",
+            "lastMileTravelString": "4.0 km",
+            "iconType": "ICON_TYPE_EMPTY"
+          },
+          "availability": {
+            "nextCloseTime": "2023-08-22 18:00:00",
+            "opened": true
+          },
+          "badges": {
+            
+          },
+          "isOpen": true,
+          "type": "F",
+          "badgesV2": {
+            "entityBadges": {
+              "textBased": {
+                
+              },
+              "imageBased": {
+                
+              },
+              "textExtendedBadges": {
+                
+              }
+            }
+          },
+          "loyaltyDiscoverPresentationInfo": {
+            "badgeType": "BADGE_TYPE_OFFER_PACK",
+            "offerSubText": "with offer pack",
+            "nonSwiggyOneFreedelMessage": "FREE DELIVERY"
+          },
+          "orderabilityCommunication": {
+            "title": {
+              
             },
-          ],
-          subHeader: "",
-          headerType: 0,
-          superFreedel: "",
-        },
-        aggregatedDiscountInfoV2: {
-          header: "",
-          shortDescriptionList: [
-            {
-              meta: "Free Delivery",
-              discountType: "FREE_DELIVERY",
-              operationType: "RESTAURANT",
+            "subTitle": {
+              
             },
-          ],
-          descriptionList: [
-            {
-              meta: "FREE DELIVERY",
-              discountType: "FREE_DELIVERY",
-              operationType: "RESTAURANT",
+            "message": {
+              
             },
-          ],
-          subHeader: "",
-          headerType: 0,
-          superFreedel: "",
+            "customIcon": {
+              
+            }
+          },
+          "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+              "lottie": {
+                
+              },
+              "video": {
+                
+              }
+            }
+          },
+          "reviewsSummary": {
+            
+          },
+          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+          "restaurantOfferPresentationInfo": {
+            
+          }
         },
-        chain: [],
-        feeDetails: {
-          fees: [],
-          totalFees: 0,
-          message: "",
-          title: "",
-          amount: "",
-          icon: "",
+        "analytics": {
+          
         },
-        availability: {
-          opened: true,
-          nextOpenMessage: "",
-          nextCloseMessage: "",
-        },
-        longDistanceEnabled: 0,
-        rainMode: "NONE",
-        thirdPartyAddress: false,
-        thirdPartyVendor: "",
-        adTrackingID: "",
-        badges: {
-          imageBased: [],
-          textBased: [],
-          textExtendedBadges: [],
-        },
-        lastMileTravelString: "6.1 kms",
-        hasSurge: false,
-        sla: {
-          restaurantId: "469264",
-          deliveryTime: 27,
-          minDeliveryTime: 25,
-          maxDeliveryTime: 35,
-          lastMileTravel: 6.199999809265137,
-          lastMileDistance: 0,
-          serviceability: "SERVICEABLE_WITH_BANNER",
-          rainMode: "NONE",
-          longDistance: "NOT_LONG_DISTANCE",
-          preferentialService: false,
-          iconType: "EMPTY",
-        },
-        promoted: false,
-        avgRating: "4.5",
-        totalRatings: 0,
-        new: false,
+        "cta": {
+          "link": "swiggy://menu?restaurant_id=64313",
+          "text": "RESTAURANT_MENU",
+          "type": "DEEPLINK"
+        }
       },
-      subtype: "basic",
-    },
-    {
-      type: "restaurant",
-      data: {
-        type: "F",
-        id: "193541",
-        name: "Behrouz Biryani",
-        uuid: "abc2e9d1-df00-4449-bde3-4c35982d0ef3",
-        city: "21",
-        area: "Adajan Patiya",
-        totalRatingsString: "1000+ ratings",
-        cloudinaryImageId: "craozjakzx7sll2uracb",
-        cuisines: [
-          "Biryani",
-          "Mughlai",
-          "Lucknowi",
-          "Hyderabadi",
-          "Kebabs",
-          "North Indian",
-          "Persian",
-          "Desserts",
-        ],
-        tags: [],
-        costForTwo: 50000,
-        costForTwoString: "₹500 FOR TWO",
-        deliveryTime: 49,
-        minDeliveryTime: 45,
-        maxDeliveryTime: 55,
-        slaString: "45-55 MINS",
-        lastMileTravel: 6.400000095367432,
-        slugs: {
-          restaurant: "behrouz-biryani-adajan-adajan",
-          city: "surat",
-        },
-        cityState: "21",
-        address:
-          "Chalta no 23, Ground Floor, Guru Ashish Building, Below Stallon Gym, Opp Kotyark Nagar, Near Navyug College, Adajan, Surat 395005",
-        locality: "Nr Navyug College, Rander Road",
-        parentId: 1803,
-        unserviceable: true,
-        veg: false,
-        select: false,
-        favorite: false,
-        tradeCampaignHeaders: [],
-        aggregatedDiscountInfo: {
-          header: "FREE DELIVERY",
-          shortDescriptionList: [
-            {
-              meta: "FREE DELIVERY",
-              discountType: "FREE_DELIVERY",
-              operationType: "RESTAURANT",
-            },
+      {
+        "info": {
+          "id": "394784",
+          "name": "Theobroma",
+          "cloudinaryImageId": "asd7v64r8hjmbx5nivyh",
+          "locality": "Karve Road",
+          "areaName": "Shivajinagar",
+          "costForTwo": "₹500 for two",
+          "cuisines": [
+            "Bakery",
+            "Desserts"
           ],
-          descriptionList: [
-            {
-              meta: "FREE DELIVERY",
-              discountType: "FREE_DELIVERY",
-              operationType: "RESTAURANT",
+          "avgRating": 4.6,
+          "feeDetails": {
+            "restaurantId": "394784",
+            "fees": [
+              {
+                "name": "BASE_DISTANCE",
+                "fee": 4900
+              },
+              {
+                "name": "BASE_TIME"
+              },
+              {
+                "name": "ANCILLARY_SURGE_FEE"
+              }
+            ],
+            "totalFee": 4900
+          },
+          "parentId": "1040",
+          "avgRatingString": "4.6",
+          "totalRatingsString": "1K+",
+          "promoted": true,
+          "adTrackingId": "cid=7621087~p=3~eid=0000018a-1ba4-4d91-043e-41fb00e50342~srvts=1692680867217~45995",
+          "sla": {
+            "deliveryTime": 28,
+            "lastMileTravel": 4.8,
+            "serviceability": "SERVICEABLE",
+            "slaString": "28 mins",
+            "lastMileTravelString": "4.8 km",
+            "iconType": "ICON_TYPE_EMPTY"
+          },
+          "availability": {
+            "nextCloseTime": "2023-08-23 00:00:00",
+            "opened": true
+          },
+          "badges": {
+            "imageBadges": [
+              {
+                "imageId": "newg.png",
+                "description": "Gourmet"
+              }
+            ]
+          },
+          "isOpen": true,
+          "type": "F",
+          "badgesV2": {
+            "entityBadges": {
+              "textBased": {
+                
+              },
+              "imageBased": {
+                "badgeObject": [
+                  {
+                    "attributes": {
+                      "imageId": "newg.png",
+                      "description": "Gourmet"
+                    }
+                  }
+                ]
+              },
+              "textExtendedBadges": {
+                
+              }
+            }
+          },
+          "loyaltyDiscoverPresentationInfo": {
+            "badgeType": "BADGE_TYPE_OFFER_PACK",
+            "offerSubText": "with offer pack",
+            "nonSwiggyOneFreedelMessage": "FREE DELIVERY"
+          },
+          "orderabilityCommunication": {
+            "title": {
+              
             },
-          ],
-          subHeader: "",
-          headerType: 0,
-          superFreedel: "",
-        },
-        aggregatedDiscountInfoV2: {
-          header: "",
-          shortDescriptionList: [
-            {
-              meta: "Free Delivery",
-              discountType: "FREE_DELIVERY",
-              operationType: "RESTAURANT",
+            "subTitle": {
+              
             },
-          ],
-          descriptionList: [
-            {
-              meta: "FREE DELIVERY",
-              discountType: "FREE_DELIVERY",
-              operationType: "RESTAURANT",
+            "message": {
+              
             },
-          ],
-          subHeader: "",
-          headerType: 0,
-          superFreedel: "",
+            "customIcon": {
+              
+            }
+          },
+          "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+              "lottie": {
+                
+              },
+              "video": {
+                
+              }
+            }
+          },
+          "reviewsSummary": {
+            
+          },
+          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+          "restaurantOfferPresentationInfo": {
+            
+          }
         },
-        chain: [],
-        feeDetails: {
-          fees: [],
-          totalFees: 0,
-          message: "",
-          title: "",
-          amount: "",
-          icon: "",
+        "analytics": {
+          
         },
-        availability: {
-          opened: true,
-          nextOpenMessage: "",
-          nextCloseMessage: "",
-        },
-        longDistanceEnabled: 0,
-        rainMode: "NONE",
-        thirdPartyAddress: false,
-        thirdPartyVendor: "",
-        adTrackingID: "",
-        badges: {
-          imageBased: [],
-          textBased: [],
-          textExtendedBadges: [],
-        },
-        lastMileTravelString: "6.4 kms",
-        hasSurge: false,
-        sla: {
-          restaurantId: "193541",
-          deliveryTime: 49,
-          minDeliveryTime: 45,
-          maxDeliveryTime: 55,
-          lastMileTravel: 6.400000095367432,
-          lastMileDistance: 0,
-          serviceability: "SERVICEABLE_WITH_BANNER",
-          rainMode: "NONE",
-          longDistance: "NOT_LONG_DISTANCE",
-          preferentialService: false,
-          iconType: "EMPTY",
-        },
-        promoted: false,
-        avgRating: "4.3",
-        totalRatings: 1000,
-        new: false,
+        "cta": {
+          "link": "swiggy://menu?restaurant_id=394784",
+          "text": "RESTAURANT_MENU",
+          "type": "DEEPLINK"
+        }
       },
-      subtype: "basic",
-    },
-    {
-      type: "restaurant",
-      data: {
-        type: "F",
-        id: "475510",
-        name: "Momos House",
-        uuid: "34320d9a-ffa7-450c-ad61-d50485306626",
-        city: "21",
-        area: "Piplod",
-        totalRatingsString: "Too Few Ratings",
-        cloudinaryImageId: "vmold2zualdrrypxcvue",
-        cuisines: ["Fast Food", "Ice Cream"],
-        tags: [],
-        costForTwo: 20000,
-        costForTwoString: "₹200 FOR TWO",
-        deliveryTime: 31,
-        minDeliveryTime: 30,
-        maxDeliveryTime: 40,
-        slaString: "30-40 MINS",
-        lastMileTravel: 6.199999809265137,
-        slugs: {
-          restaurant: "momo’s-house-piplod-piplod",
-          city: "surat",
-        },
-        cityState: "21",
-        address:
-          "SHOP NO - 2, MARVELLA CORRIDOR, OPP. C B PATEL HEALTH CLUB, V.I.P. ROAD, Surat,, Vesu , Surat Municipal Corporation, Surat Municipal Corporation, Gujarat - 395007",
-        locality: "Vesu",
-        parentId: 15884,
-        unserviceable: true,
-        veg: false,
-        select: false,
-        favorite: false,
-        tradeCampaignHeaders: [],
-        aggregatedDiscountInfo: {
-          header: "FREE DELIVERY",
-          shortDescriptionList: [
-            {
-              meta: "FREE DELIVERY",
-              discountType: "FREE_DELIVERY",
-              operationType: "RESTAURANT",
-            },
+      {
+        "info": {
+          "id": "147547",
+          "name": "Yenna Dosa",
+          "cloudinaryImageId": "fyg9qf4t8vuzpa5fvyn8",
+          "locality": "Kothari Blocks",
+          "areaName": "Bibwewadi",
+          "costForTwo": "₹300 for two",
+          "cuisines": [
+            "South Indian"
           ],
-          descriptionList: [
-            {
-              meta: "FREE DELIVERY",
-              discountType: "FREE_DELIVERY",
-              operationType: "RESTAURANT",
+          "avgRating": 4.5,
+          "veg": true,
+          "feeDetails": {
+            "restaurantId": "147547",
+            "fees": [
+              {
+                "name": "BASE_DISTANCE",
+                "fee": 3200
+              },
+              {
+                "name": "BASE_TIME"
+              },
+              {
+                "name": "ANCILLARY_SURGE_FEE"
+              }
+            ],
+            "totalFee": 3200
+          },
+          "parentId": "227837",
+          "avgRatingString": "4.5",
+          "totalRatingsString": "5K+",
+          "sla": {
+            "deliveryTime": 22,
+            "lastMileTravel": 2.7,
+            "serviceability": "SERVICEABLE",
+            "slaString": "22 mins",
+            "lastMileTravelString": "2.7 km",
+            "iconType": "ICON_TYPE_EMPTY"
+          },
+          "availability": {
+            "nextCloseTime": "2023-08-22 22:00:00",
+            "opened": true
+          },
+          "badges": {
+            
+          },
+          "isOpen": true,
+          "type": "F",
+          "badgesV2": {
+            "entityBadges": {
+              "textExtendedBadges": {
+                
+              },
+              "textBased": {
+                
+              },
+              "imageBased": {
+                
+              }
+            }
+          },
+          "loyaltyDiscoverPresentationInfo": {
+            "badgeType": "BADGE_TYPE_OFFER_PACK",
+            "offerSubText": "with offer pack",
+            "nonSwiggyOneFreedelMessage": "FREE DELIVERY"
+          },
+          "orderabilityCommunication": {
+            "title": {
+              
             },
-          ],
-          subHeader: "",
-          headerType: 0,
-          superFreedel: "",
-        },
-        aggregatedDiscountInfoV2: {
-          header: "",
-          shortDescriptionList: [
-            {
-              meta: "Free Delivery",
-              discountType: "FREE_DELIVERY",
-              operationType: "RESTAURANT",
+            "subTitle": {
+              
             },
-          ],
-          descriptionList: [
-            {
-              meta: "FREE DELIVERY",
-              discountType: "FREE_DELIVERY",
-              operationType: "RESTAURANT",
+            "message": {
+              
             },
-          ],
-          subHeader: "",
-          headerType: 0,
-          superFreedel: "",
+            "customIcon": {
+              
+            }
+          },
+          "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+              "lottie": {
+                
+              },
+              "video": {
+                
+              }
+            }
+          },
+          "reviewsSummary": {
+            
+          },
+          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+          "restaurantOfferPresentationInfo": {
+            
+          }
         },
-        chain: [],
-        feeDetails: {
-          fees: [],
-          totalFees: 0,
-          message: "",
-          title: "",
-          amount: "",
-          icon: "",
+        "analytics": {
+          
         },
-        availability: {
-          opened: true,
-          nextOpenMessage: "",
-          nextCloseMessage: "",
-        },
-        longDistanceEnabled: 0,
-        rainMode: "NONE",
-        thirdPartyAddress: false,
-        thirdPartyVendor: "",
-        adTrackingID: "",
-        badges: {
-          imageBased: [],
-          textBased: [],
-          textExtendedBadges: [],
-        },
-        lastMileTravelString: "6.1 kms",
-        hasSurge: false,
-        sla: {
-          restaurantId: "475510",
-          deliveryTime: 31,
-          minDeliveryTime: 30,
-          maxDeliveryTime: 40,
-          lastMileTravel: 6.199999809265137,
-          lastMileDistance: 0,
-          serviceability: "SERVICEABLE_WITH_BANNER",
-          rainMode: "NONE",
-          longDistance: "NOT_LONG_DISTANCE",
-          preferentialService: false,
-          iconType: "EMPTY",
-        },
-        promoted: false,
-        avgRating: "4.1",
-        totalRatings: 0,
-        new: false,
+        "cta": {
+          "link": "swiggy://menu?restaurant_id=147547",
+          "text": "RESTAURANT_MENU",
+          "type": "DEEPLINK"
+        }
       },
-      subtype: "basic",
-    },
-    {
-      type: "restaurant",
-      data: {
-        type: "F",
-        id: "127596",
-        name: "Sabir Chicken",
-        uuid: "f0f49821-52ed-4435-9014-c845e964a3d8",
-        city: "21",
-        area: "Chowk Bazar",
-        totalRatingsString: "5000+ ratings",
-        cloudinaryImageId: "kilrdjqt8chduasii5ni",
-        cuisines: ["North Indian", "Biryani"],
-        tags: [],
-        costForTwo: 30000,
-        costForTwoString: "₹300 FOR TWO",
-        deliveryTime: 30,
-        minDeliveryTime: 25,
-        maxDeliveryTime: 35,
-        slaString: "25-35 MINS",
-        lastMileTravel: 4.300000190734863,
-        slugs: {
-          restaurant: "sabir-chicken-athwa-athwa",
-          city: "surat",
-        },
-        cityState: "21",
-        address:
-          "Nehru Bridge, Behind Nagin Chand Hall, Chowk Bazar, Surat, Gujarat 395003",
-        locality: "Chowk Bazar",
-        parentId: 173978,
-        unserviceable: true,
-        veg: false,
-        select: false,
-        favorite: false,
-        tradeCampaignHeaders: [],
-        aggregatedDiscountInfo: {
-          header: "FREE DELIVERY",
-          shortDescriptionList: [
-            {
-              meta: "FREE DELIVERY",
-              discountType: "FREE_DELIVERY",
-              operationType: "RESTAURANT",
-            },
+       
+      {
+        "info": {
+          "id": "122159",
+          "name": "Shree Narayan Khaman Dhokla & Sweets",
+          "cloudinaryImageId": "d0phhir5pllqsvcdofz1",
+          "locality": "Adinath Commercial Complex",
+          "areaName": "Satara Road",
+          "costForTwo": "₹300 for two",
+          "cuisines": [
+            "Gujarati",
+            "Snacks",
+            "Fast Food"
           ],
-          descriptionList: [
-            {
-              meta: "FREE DELIVERY",
-              discountType: "FREE_DELIVERY",
-              operationType: "RESTAURANT",
+          "avgRating": 4.3,
+          "veg": true,
+          "feeDetails": {
+            "restaurantId": "122159",
+            "fees": [
+              {
+                "name": "BASE_DISTANCE",
+                "fee": 3200
+              },
+              {
+                "name": "BASE_TIME"
+              },
+              {
+                "name": "ANCILLARY_SURGE_FEE"
+              }
+            ],
+            "totalFee": 3200
+          },
+          "parentId": "185179",
+          "avgRatingString": "4.3",
+          "totalRatingsString": "1K+",
+          "sla": {
+            "deliveryTime": 20,
+            "lastMileTravel": 2,
+            "serviceability": "SERVICEABLE",
+            "slaString": "20 mins",
+            "lastMileTravelString": "2.0 km",
+            "iconType": "ICON_TYPE_EMPTY"
+          },
+          "availability": {
+            "nextCloseTime": "2023-08-22 20:35:00",
+            "opened": true
+          },
+          "badges": {
+            
+          },
+          "isOpen": true,
+          "type": "F",
+          "badgesV2": {
+            "entityBadges": {
+              "textExtendedBadges": {
+                
+              },
+              "textBased": {
+                
+              },
+              "imageBased": {
+                
+              }
+            }
+          },
+          "aggregatedDiscountInfoV3": {
+            "header": "₹100 OFF",
+            "subHeader": "ABOVE ₹299",
+            "discountTag": "FLAT DEAL"
+          },
+          "loyaltyDiscoverPresentationInfo": {
+            "badgeType": "BADGE_TYPE_OFFER_PACK",
+            "offerSubText": "with offer pack",
+            "nonSwiggyOneFreedelMessage": "FREE DELIVERY"
+          },
+          "orderabilityCommunication": {
+            "title": {
+              
             },
-          ],
-          subHeader: "",
-          headerType: 0,
-          superFreedel: "",
-        },
-        aggregatedDiscountInfoV2: {
-          header: "",
-          shortDescriptionList: [
-            {
-              meta: "Free Delivery",
-              discountType: "FREE_DELIVERY",
-              operationType: "RESTAURANT",
+            "subTitle": {
+              
             },
-          ],
-          descriptionList: [
-            {
-              meta: "FREE DELIVERY",
-              discountType: "FREE_DELIVERY",
-              operationType: "RESTAURANT",
+            "message": {
+              
             },
-          ],
-          subHeader: "",
-          headerType: 0,
-          superFreedel: "",
+            "customIcon": {
+              
+            }
+          },
+          "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+              "lottie": {
+                
+              },
+              "video": {
+                
+              }
+            }
+          },
+          "reviewsSummary": {
+            
+          },
+          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+          "restaurantOfferPresentationInfo": {
+            
+          }
         },
-        chain: [],
-        feeDetails: {
-          fees: [],
-          totalFees: 0,
-          message: "",
-          title: "",
-          amount: "",
-          icon: "",
+        "analytics": {
+          
         },
-        availability: {
-          opened: true,
-          nextOpenMessage: "",
-          nextCloseMessage: "",
-        },
-        longDistanceEnabled: 0,
-        rainMode: "NONE",
-        thirdPartyAddress: false,
-        thirdPartyVendor: "",
-        adTrackingID: "",
-        badges: {
-          imageBased: [],
-          textBased: [],
-          textExtendedBadges: [],
-        },
-        lastMileTravelString: "4.3 kms",
-        hasSurge: false,
-        sla: {
-          restaurantId: "127596",
-          deliveryTime: 30,
-          minDeliveryTime: 25,
-          maxDeliveryTime: 35,
-          lastMileTravel: 4.300000190734863,
-          lastMileDistance: 0,
-          serviceability: "SERVICEABLE_WITH_BANNER",
-          rainMode: "NONE",
-          longDistance: "NOT_LONG_DISTANCE",
-          preferentialService: false,
-          iconType: "EMPTY",
-        },
-        promoted: false,
-        avgRating: "4.1",
-        totalRatings: 5000,
-        new: false,
+        "cta": {
+          "link": "swiggy://menu?restaurant_id=122159",
+          "text": "RESTAURANT_MENU",
+          "type": "DEEPLINK"
+        }
       },
-      subtype: "basic",
-    },
-    {
-      type: "restaurant",
-      data: {
-        type: "F",
-        id: "64656",
-        name: "Mahesh Pav Bhaji",
-        uuid: "ccfda4b9-82b1-4f22-9567-eb98c448b267",
-        city: "21",
-        area: "Adajan",
-        totalRatingsString: "10000+ ratings",
-        cloudinaryImageId: "84d3bea985f13bd980dc39c9c73bc87f",
-        cuisines: ["Desserts", "Chinese", "South Indian", "Ice Cream", "Pizzas"],
-        tags: [],
-        costForTwo: 25000,
-        costForTwoString: "₹250 FOR TWO",
-        deliveryTime: 36,
-        minDeliveryTime: 35,
-        maxDeliveryTime: 45,
-        slaString: "35-45 MINS",
-        lastMileTravel: 6.900000095367432,
-        slugs: {
-          restaurant: "mahesh-pav-bhaji-adajan-gam-adajan",
-          city: "surat",
-        },
-        cityState: "21",
-        address:
-          "Shop 12, Garden View Apartment, Honey Park Road, Adajan Gam, Surat",
-        locality: "Adajan Gam",
-        parentId: 6553,
-        unserviceable: true,
-        veg: true,
-        select: false,
-        favorite: false,
-        tradeCampaignHeaders: [],
-        aggregatedDiscountInfo: {
-          header: "30% off",
-          shortDescriptionList: [
-            {
-              meta: "30% off | Use JUMBO",
-              discountType: "Percentage",
-              operationType: "RESTAURANT",
-            },
+      {
+        "info": {
+          "id": "572038",
+          "name": "Naadbramha Idli",
+          "cloudinaryImageId": "i3wks8cgs0b01pf4cjlb",
+          "locality": "Bhawani Peth",
+          "areaName": "Shukrawar Peth",
+          "costForTwo": "₹100 for two",
+          "cuisines": [
+            "South Indian"
           ],
-          descriptionList: [
-            {
-              meta: "30% off up to ₹150 on orders above ₹400 | Use code JUMBO",
-              discountType: "Percentage",
-              operationType: "RESTAURANT",
+          "avgRating": 4.7,
+          "feeDetails": {
+            "restaurantId": "572038",
+            "fees": [
+              {
+                "name": "BASE_DISTANCE",
+                "fee": 3800
+              },
+              {
+                "name": "BASE_TIME"
+              },
+              {
+                "name": "ANCILLARY_SURGE_FEE"
+              }
+            ],
+            "totalFee": 3800
+          },
+          "parentId": "251339",
+          "avgRatingString": "4.7",
+          "totalRatingsString": "10+",
+          "promoted": true,
+          "adTrackingId": "cid=7585418~p=4~eid=0000018a-1ba4-4d91-043e-41fc00e50455~srvts=1692680867217~45995",
+          "sla": {
+            "deliveryTime": 25,
+            "lastMileTravel": 3.7,
+            "serviceability": "SERVICEABLE",
+            "slaString": "25 mins",
+            "lastMileTravelString": "3.7 km",
+            "iconType": "ICON_TYPE_EMPTY"
+          },
+          "availability": {
+            "nextCloseTime": "2023-08-22 19:30:00",
+            "opened": true
+          },
+          "badges": {
+            
+          },
+          "isOpen": true,
+          "type": "F",
+          "badgesV2": {
+            "entityBadges": {
+              "textExtendedBadges": {
+                
+              },
+              "textBased": {
+                
+              },
+              "imageBased": {
+                
+              }
+            }
+          },
+          "loyaltyDiscoverPresentationInfo": {
+            "badgeType": "BADGE_TYPE_OFFER_PACK",
+            "offerSubText": "with offer pack",
+            "nonSwiggyOneFreedelMessage": "FREE DELIVERY"
+          },
+          "orderabilityCommunication": {
+            "title": {
+              
             },
-          ],
-          subHeader: "",
-          headerType: 0,
-          superFreedel: "",
-        },
-        aggregatedDiscountInfoV2: {
-          header: "30% OFF",
-          shortDescriptionList: [
-            {
-              meta: "Use JUMBO",
-              discountType: "Percentage",
-              operationType: "RESTAURANT",
+            "subTitle": {
+              
             },
-          ],
-          descriptionList: [
-            {
-              meta: "30% off up to ₹150 on orders above ₹400 | Use code JUMBO",
-              discountType: "Percentage",
-              operationType: "RESTAURANT",
+            "message": {
+              
             },
-          ],
-          subHeader: "",
-          headerType: 0,
-          superFreedel: "",
+            "customIcon": {
+              
+            }
+          },
+          "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+              "lottie": {
+                
+              },
+              "video": {
+                
+              }
+            }
+          },
+          "reviewsSummary": {
+            
+          },
+          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+          "restaurantOfferPresentationInfo": {
+            
+          }
         },
-        chain: [],
-        feeDetails: {
-          fees: [],
-          totalFees: 0,
-          message: "",
-          title: "",
-          amount: "",
-          icon: "",
+        "analytics": {
+          
         },
-        availability: {
-          opened: true,
-          nextOpenMessage: "",
-          nextCloseMessage: "",
-        },
-        longDistanceEnabled: 0,
-        rainMode: "NONE",
-        thirdPartyAddress: false,
-        thirdPartyVendor: "",
-        adTrackingID: "",
-        badges: {
-          imageBased: [],
-          textBased: [],
-          textExtendedBadges: [],
-        },
-        lastMileTravelString: "6.9 kms",
-        hasSurge: false,
-        sla: {
-          restaurantId: "64656",
-          deliveryTime: 36,
-          minDeliveryTime: 35,
-          maxDeliveryTime: 45,
-          lastMileTravel: 6.900000095367432,
-          lastMileDistance: 0,
-          serviceability: "SERVICEABLE_WITH_BANNER",
-          rainMode: "NONE",
-          longDistance: "NOT_LONG_DISTANCE",
-          preferentialService: false,
-          iconType: "EMPTY",
-        },
-        promoted: false,
-        avgRating: "4.1",
-        totalRatings: 10000,
-        new: false,
+        "cta": {
+          "link": "swiggy://menu?restaurant_id=572038",
+          "text": "RESTAURANT_MENU",
+          "type": "DEEPLINK"
+        }
       },
-      subtype: "basic",
-    },
-    {
-      type: "restaurant",
-      data: {
-        type: "F",
-        id: "255204",
-        name: "The Dango Cake Shop",
-        uuid: "dbfd3f3c-77a6-4979-96c4-ce9863e54cdc",
-        city: "21",
-        area: "Galaxy Circle",
-        totalRatingsString: "50+ ratings",
-        cloudinaryImageId: "mnvfpsoealkflze4e5qi",
-        cuisines: ["Bakery", "Ice Cream"],
-        tags: [],
-        costForTwo: 27000,
-        costForTwoString: "₹270 FOR TWO",
-        deliveryTime: 34,
-        minDeliveryTime: 30,
-        maxDeliveryTime: 40,
-        slaString: "30-40 MINS",
-        lastMileTravel: 7.699999809265137,
-        slugs: {
-          restaurant: "twisted-cake-live-cake-adajan-adajan",
-          city: "surat",
-        },
-        cityState: "21",
-        address: "44 La Victoria, galaxy circle pal Surat",
-        locality: "Galaxy Circle",
-        parentId: 207513,
-        unserviceable: true,
-        veg: false,
-        select: false,
-        favorite: false,
-        tradeCampaignHeaders: [],
-        aggregatedDiscountInfo: {
-          header: "FREE DELIVERY",
-          shortDescriptionList: [
-            {
-              meta: "FREE DELIVERY",
-              discountType: "FREE_DELIVERY",
-              operationType: "RESTAURANT",
-            },
+      {
+        "info": {
+          "id": "507940",
+          "name": "EatFit",
+          "cloudinaryImageId": "6126c9b45de2cb222405c1af8a321e74",
+          "locality": "Ghole Road",
+          "areaName": "Shivajinagar",
+          "costForTwo": "₹270 for two",
+          "cuisines": [
+            "Chinese",
+            "Healthy Food",
+            "Tandoor",
+            "Pizzas",
+            "North Indian",
+            "Thalis",
+            "Biryani"
           ],
-          descriptionList: [
-            {
-              meta: "FREE DELIVERY",
-              discountType: "FREE_DELIVERY",
-              operationType: "RESTAURANT",
+          "avgRating": 4.1,
+          "feeDetails": {
+            "restaurantId": "507940",
+            "fees": [
+              {
+                "name": "BASE_DISTANCE",
+                "fee": 5000
+              },
+              {
+                "name": "BASE_TIME"
+              },
+              {
+                "name": "ANCILLARY_SURGE_FEE"
+              }
+            ],
+            "totalFee": 5000
+          },
+          "parentId": "76139",
+          "avgRatingString": "4.1",
+          "totalRatingsString": "1K+",
+          "sla": {
+            "deliveryTime": 29,
+            "lastMileTravel": 5,
+            "serviceability": "SERVICEABLE",
+            "slaString": "29 mins",
+            "lastMileTravelString": "5.0 km",
+            "iconType": "ICON_TYPE_EMPTY"
+          },
+          "availability": {
+            "nextCloseTime": "2023-08-22 23:30:00",
+            "opened": true
+          },
+          "badges": {
+            "textExtendedBadges": [
+              {
+                "iconId": "guiltfree/GF_Logo_android_3x",
+                "shortDescription": "brand",
+                "fontColor": "#7E808C"
+              }
+            ]
+          },
+          "isOpen": true,
+          "type": "F",
+          "badgesV2": {
+            "entityBadges": {
+              "textBased": {
+                
+              },
+              "imageBased": {
+                
+              },
+              "textExtendedBadges": {
+                "badgeObject": [
+                  {
+                    "attributes": {
+                      "iconId": "guiltfree/GF_Logo_android_3x",
+                      "description": "",
+                      "shortDescription": "brand",
+                      "fontColor": "#7E808C"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "aggregatedDiscountInfoV3": {
+            "header": "₹125 OFF",
+            "subHeader": "ABOVE ₹249",
+            "discountTag": "FLAT DEAL"
+          },
+          "loyaltyDiscoverPresentationInfo": {
+            "badgeType": "BADGE_TYPE_OFFER_PACK",
+            "offerSubText": "with offer pack",
+            "nonSwiggyOneFreedelMessage": "FREE DELIVERY"
+          },
+          "orderabilityCommunication": {
+            "title": {
+              
             },
-          ],
-          subHeader: "",
-          headerType: 0,
-          superFreedel: "",
-        },
-        aggregatedDiscountInfoV2: {
-          header: "",
-          shortDescriptionList: [
-            {
-              meta: "Free Delivery",
-              discountType: "FREE_DELIVERY",
-              operationType: "RESTAURANT",
+            "subTitle": {
+              
             },
-          ],
-          descriptionList: [
-            {
-              meta: "FREE DELIVERY",
-              discountType: "FREE_DELIVERY",
-              operationType: "RESTAURANT",
+            "message": {
+              
             },
-          ],
-          subHeader: "",
-          headerType: 0,
-          superFreedel: "",
+            "customIcon": {
+              
+            }
+          },
+          "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+              "lottie": {
+                
+              },
+              "video": {
+                
+              }
+            }
+          },
+          "reviewsSummary": {
+            
+          },
+          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+          "restaurantOfferPresentationInfo": {
+            
+          }
         },
-        chain: [],
-        feeDetails: {
-          fees: [],
-          totalFees: 0,
-          message: "",
-          title: "",
-          amount: "",
-          icon: "",
+        "analytics": {
+          
         },
-        availability: {
-          opened: true,
-          nextOpenMessage: "",
-          nextCloseMessage: "",
-        },
-        longDistanceEnabled: 0,
-        rainMode: "NONE",
-        thirdPartyAddress: false,
-        thirdPartyVendor: "",
-        adTrackingID: "",
-        badges: {
-          imageBased: [],
-          textBased: [],
-          textExtendedBadges: [],
-        },
-        lastMileTravelString: "7.6 kms",
-        hasSurge: false,
-        sla: {
-          restaurantId: "255204",
-          deliveryTime: 34,
-          minDeliveryTime: 30,
-          maxDeliveryTime: 40,
-          lastMileTravel: 7.699999809265137,
-          lastMileDistance: 0,
-          serviceability: "SERVICEABLE_WITH_BANNER",
-          rainMode: "NONE",
-          longDistance: "NOT_LONG_DISTANCE",
-          preferentialService: false,
-          iconType: "EMPTY",
-        },
-        promoted: false,
-        avgRating: "4.2",
-        totalRatings: 50,
-        new: false,
+        "cta": {
+          "link": "swiggy://menu?restaurant_id=507940",
+          "text": "RESTAURANT_MENU",
+          "type": "DEEPLINK"
+        }
       },
-      subtype: "basic",
-    },
-    {
-      type: "restaurant",
-      data: {
-        type: "F",
-        id: "664656",
-        name: "Cheezylicious Cafe",
-        uuid: "5880e561-10ed-4f96-990b-2251e2f09c82",
-        city: "21",
-        area: "Piplod",
-        totalRatingsString: "Too Few Ratings",
-        cloudinaryImageId: "fda9ad56b9d62070fec105cd93693129",
-        cuisines: [
-          "Cafe",
-          "Fast Food",
-          "Chinese",
-          "Snacks",
-          "Italian",
-          "Mexican",
-        ],
-        tags: [],
-        costForTwo: 15000,
-        costForTwoString: "₹150 FOR TWO",
-        deliveryTime: 38,
-        minDeliveryTime: 35,
-        maxDeliveryTime: 45,
-        slaString: "35-45 MINS",
-        lastMileTravel: 7.599999904632568,
-        slugs: {
-          restaurant: "cheezylicious-cafe-piplod-piplod-2",
-          city: "surat",
-        },
-        cityState: "21",
-        address:
-          "Shop no G10 ground floor, aagam square B/S Dream heritage, Canal road, Vesu",
-        locality: "Dream heritage",
-        parentId: 59292,
-        unserviceable: true,
-        veg: false,
-        select: false,
-        favorite: false,
-        tradeCampaignHeaders: [],
-        aggregatedDiscountInfo: {
-          header: "FREE DELIVERY",
-          shortDescriptionList: [
-            {
-              meta: "FREE DELIVERY",
-              discountType: "FREE_DELIVERY",
-              operationType: "RESTAURANT",
-            },
+      {
+        "info": {
+          "id": "288388",
+          "name": "Starbucks Coffee",
+          "cloudinaryImageId": "4df3497f1460dfd1ecd8125222f6d362",
+          "locality": "FC Road",
+          "areaName": "Shivajinagar",
+          "costForTwo": "₹400 for two",
+          "cuisines": [
+            "Beverages",
+            "Cafe",
+            "Snacks",
+            "Desserts",
+            "Bakery",
+            "Ice Cream"
           ],
-          descriptionList: [
-            {
-              meta: "FREE DELIVERY",
-              discountType: "FREE_DELIVERY",
-              operationType: "RESTAURANT",
+          "avgRating": 4.3,
+          "feeDetails": {
+            "restaurantId": "288388",
+            "fees": [
+              {
+                "name": "BASE_DISTANCE",
+                "fee": 5000
+              },
+              {
+                "name": "BASE_TIME"
+              },
+              {
+                "name": "ANCILLARY_SURGE_FEE"
+              }
+            ],
+            "totalFee": 5000
+          },
+          "parentId": "195515",
+          "avgRatingString": "4.3",
+          "totalRatingsString": "1K+",
+          "sla": {
+            "deliveryTime": 33,
+            "lastMileTravel": 5.5,
+            "serviceability": "SERVICEABLE",
+            "slaString": "33 mins",
+            "lastMileTravelString": "5.5 km",
+            "iconType": "ICON_TYPE_EMPTY"
+          },
+          "availability": {
+            "nextCloseTime": "2023-08-22 23:00:00",
+            "opened": true
+          },
+          "badges": {
+            
+          },
+          "isOpen": true,
+          "type": "F",
+          "badgesV2": {
+            "entityBadges": {
+              "textBased": {
+                
+              },
+              "imageBased": {
+                
+              },
+              "textExtendedBadges": {
+                
+              }
+            }
+          },
+          "aggregatedDiscountInfoV3": {
+            "header": "20% OFF",
+            "subHeader": "UPTO ₹50"
+          },
+          "loyaltyDiscoverPresentationInfo": {
+            "badgeType": "BADGE_TYPE_OFFER_PACK",
+            "offerSubText": "with offer pack",
+            "nonSwiggyOneFreedelMessage": "FREE DELIVERY"
+          },
+          "orderabilityCommunication": {
+            "title": {
+              
             },
-          ],
-          subHeader: "",
-          headerType: 0,
-          superFreedel: "",
-        },
-        aggregatedDiscountInfoV2: {
-          header: "",
-          shortDescriptionList: [
-            {
-              meta: "Free Delivery",
-              discountType: "FREE_DELIVERY",
-              operationType: "RESTAURANT",
+            "subTitle": {
+              
             },
-          ],
-          descriptionList: [
-            {
-              meta: "FREE DELIVERY",
-              discountType: "FREE_DELIVERY",
-              operationType: "RESTAURANT",
+            "message": {
+              
             },
-          ],
-          subHeader: "",
-          headerType: 0,
-          superFreedel: "",
+            "customIcon": {
+              
+            }
+          },
+          "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+              "lottie": {
+                
+              },
+              "video": {
+                
+              }
+            }
+          },
+          "reviewsSummary": {
+            
+          },
+          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+          "restaurantOfferPresentationInfo": {
+            
+          }
         },
-        chain: [],
-        feeDetails: {
-          fees: [],
-          totalFees: 0,
-          message: "",
-          title: "",
-          amount: "",
-          icon: "",
+        "analytics": {
+          
         },
-        availability: {
-          opened: true,
-          nextOpenMessage: "",
-          nextCloseMessage: "",
-        },
-        longDistanceEnabled: 0,
-        rainMode: "NONE",
-        thirdPartyAddress: false,
-        thirdPartyVendor: "",
-        adTrackingID: "",
-        badges: {
-          imageBased: [],
-          textBased: [],
-          textExtendedBadges: [],
-        },
-        lastMileTravelString: "7.5 kms",
-        hasSurge: false,
-        sla: {
-          restaurantId: "664656",
-          deliveryTime: 38,
-          minDeliveryTime: 35,
-          maxDeliveryTime: 45,
-          lastMileTravel: 7.599999904632568,
-          lastMileDistance: 0,
-          serviceability: "SERVICEABLE_WITH_BANNER",
-          rainMode: "NONE",
-          longDistance: "NOT_LONG_DISTANCE",
-          preferentialService: false,
-          iconType: "EMPTY",
-        },
-        promoted: false,
-        avgRating: "3.9",
-        totalRatings: 0,
-        new: true,
+        "cta": {
+          "link": "swiggy://menu?restaurant_id=288388",
+          "text": "RESTAURANT_MENU",
+          "type": "DEEPLINK"
+        }
       },
-      subtype: "basic",
-    },
+      {
+        "info": {
+          "id": "120649",
+          "name": "S kumar wadewale & premacha chaha",
+          "cloudinaryImageId": "rmhdcbyxn2obxy1ydilf",
+          "locality": "Ravikaran Hall",
+          "areaName": "Bibwewadi",
+          "costForTwo": "₹150 for two",
+          "cuisines": [
+            "Fast Food",
+            "Snacks",
+            "Beverages"
+          ],
+          "avgRating": 4.1,
+          "veg": true,
+          "feeDetails": {
+            "restaurantId": "120649",
+            "fees": [
+              {
+                "name": "BASE_DISTANCE",
+                "fee": 4400
+              },
+              {
+                "name": "BASE_TIME"
+              },
+              {
+                "name": "ANCILLARY_SURGE_FEE"
+              }
+            ],
+            "totalFee": 4400
+          },
+          "parentId": "173475",
+          "avgRatingString": "4.1",
+          "totalRatingsString": "1K+",
+          "sla": {
+            "deliveryTime": 28,
+            "lastMileTravel": 4,
+            "serviceability": "SERVICEABLE",
+            "slaString": "28 mins",
+            "lastMileTravelString": "4.0 km",
+            "iconType": "ICON_TYPE_EMPTY"
+          },
+          "availability": {
+            "nextCloseTime": "2023-08-22 21:00:00",
+            "opened": true
+          },
+          "badges": {
+            
+          },
+          "isOpen": true,
+          "type": "F",
+          "badgesV2": {
+            "entityBadges": {
+              "textExtendedBadges": {
+                
+              },
+              "textBased": {
+                
+              },
+              "imageBased": {
+                
+              }
+            }
+          },
+          "aggregatedDiscountInfoV3": {
+            "header": "₹75 OFF",
+            "subHeader": "ABOVE ₹249",
+            "discountTag": "FLAT DEAL"
+          },
+          "loyaltyDiscoverPresentationInfo": {
+            "badgeType": "BADGE_TYPE_OFFER_PACK",
+            "offerSubText": "with offer pack",
+            "nonSwiggyOneFreedelMessage": "FREE DELIVERY"
+          },
+          "orderabilityCommunication": {
+            "title": {
+              
+            },
+            "subTitle": {
+              
+            },
+            "message": {
+              
+            },
+            "customIcon": {
+              
+            }
+          },
+          "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+              "lottie": {
+                
+              },
+              "video": {
+                
+              }
+            }
+          },
+          "reviewsSummary": {
+            
+          },
+          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+          "restaurantOfferPresentationInfo": {
+            
+          }
+        },
+        "analytics": {
+          
+        },
+        "cta": {
+          "link": "swiggy://menu?restaurant_id=120649",
+          "text": "RESTAURANT_MENU",
+          "type": "DEEPLINK"
+        }
+      },
+      {
+        "info": {
+          "id": "142657",
+          "name": "PK Biryani House (Swargate)",
+          "cloudinaryImageId": "oemsaiqybiw7bh5nseqm",
+          "locality": "Mitramandal Chowk",
+          "areaName": "Swargate",
+          "costForTwo": "₹400 for two",
+          "cuisines": [
+            "Biryani",
+            "Indian"
+          ],
+          "avgRating": 3.9,
+          "feeDetails": {
+            "restaurantId": "142657",
+            "fees": [
+              {
+                "name": "BASE_DISTANCE",
+                "fee": 3200
+              },
+              {
+                "name": "BASE_TIME"
+              },
+              {
+                "name": "ANCILLARY_SURGE_FEE"
+              }
+            ],
+            "totalFee": 3200
+          },
+          "parentId": "3260",
+          "avgRatingString": "3.9",
+          "totalRatingsString": "5K+",
+          "promoted": true,
+          "adTrackingId": "cid=7821804~p=5~eid=0000018a-1ba4-4d91-043e-41fd00e50502~srvts=1692680867217~45995",
+          "sla": {
+            "deliveryTime": 25,
+            "lastMileTravel": 2.7,
+            "serviceability": "SERVICEABLE",
+            "slaString": "25 mins",
+            "lastMileTravelString": "2.7 km",
+            "iconType": "ICON_TYPE_EMPTY"
+          },
+          "availability": {
+            "nextCloseTime": "2023-08-22 23:15:00",
+            "opened": true
+          },
+          "badges": {
+            
+          },
+          "isOpen": true,
+          "type": "F",
+          "badgesV2": {
+            "entityBadges": {
+              "textBased": {
+                
+              },
+              "imageBased": {
+                
+              },
+              "textExtendedBadges": {
+                
+              }
+            }
+          },
+          "loyaltyDiscoverPresentationInfo": {
+            "badgeType": "BADGE_TYPE_OFFER_PACK",
+            "offerSubText": "with offer pack",
+            "nonSwiggyOneFreedelMessage": "FREE DELIVERY"
+          },
+          "orderabilityCommunication": {
+            "title": {
+              
+            },
+            "subTitle": {
+              
+            },
+            "message": {
+              
+            },
+            "customIcon": {
+              
+            }
+          },
+          "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+              "lottie": {
+                
+              },
+              "video": {
+                
+              }
+            }
+          },
+          "reviewsSummary": {
+            
+          },
+          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+          "restaurantOfferPresentationInfo": {
+            
+          }
+        },
+        "analytics": {
+          
+        },
+        "cta": {
+          "link": "swiggy://menu?restaurant_id=142657",
+          "text": "RESTAURANT_MENU",
+          "type": "DEEPLINK"
+        }
+      },
+      {
+        "info": {
+          "id": "52975",
+          "name": "Sweet Truth - Cake and Desserts",
+          "cloudinaryImageId": "4a3b48488e3aa9bda13efd8cfcd95284",
+          "locality": "Satara Road",
+          "areaName": "Maharshi Nagar",
+          "costForTwo": "₹450 for two",
+          "cuisines": [
+            "Snacks",
+            "Bakery",
+            "Desserts",
+            "Beverages"
+          ],
+          "avgRating": 4.2,
+          "feeDetails": {
+            "restaurantId": "52975",
+            "fees": [
+              {
+                "name": "BASE_DISTANCE",
+                "fee": 3200
+              },
+              {
+                "name": "BASE_TIME"
+              },
+              {
+                "name": "ANCILLARY_SURGE_FEE"
+              }
+            ],
+            "totalFee": 3200
+          },
+          "parentId": "4444",
+          "avgRatingString": "4.2",
+          "totalRatingsString": "500+",
+          "sla": {
+            "deliveryTime": 22,
+            "lastMileTravel": 1.9,
+            "serviceability": "SERVICEABLE",
+            "slaString": "22 mins",
+            "lastMileTravelString": "1.9 km",
+            "iconType": "ICON_TYPE_EMPTY"
+          },
+          "availability": {
+            "nextCloseTime": "2023-08-23 02:00:00",
+            "opened": true
+          },
+          "badges": {
+            
+          },
+          "isOpen": true,
+          "type": "F",
+          "badgesV2": {
+            "entityBadges": {
+              "textBased": {
+                
+              },
+              "imageBased": {
+                
+              },
+              "textExtendedBadges": {
+                
+              }
+            }
+          },
+          "aggregatedDiscountInfoV3": {
+            "header": "40% OFF",
+            "subHeader": "UPTO ₹80"
+          },
+          "loyaltyDiscoverPresentationInfo": {
+            "badgeType": "BADGE_TYPE_OFFER_PACK",
+            "offerSubText": "with offer pack",
+            "nonSwiggyOneFreedelMessage": "FREE DELIVERY"
+          },
+          "orderabilityCommunication": {
+            "title": {
+              
+            },
+            "subTitle": {
+              
+            },
+            "message": {
+              
+            },
+            "customIcon": {
+              
+            }
+          },
+          "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+              "lottie": {
+                
+              },
+              "video": {
+                
+              }
+            }
+          },
+          "reviewsSummary": {
+            
+          },
+          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+          "restaurantOfferPresentationInfo": {
+            
+          }
+        },
+        "analytics": {
+          
+        },
+        "cta": {
+          "link": "swiggy://menu?restaurant_id=52975",
+          "text": "RESTAURANT_MENU",
+          "type": "DEEPLINK"
+        }
+      },
+      {
+        "info": {
+          "id": "156118",
+          "name": "The Good Bowl",
+          "cloudinaryImageId": "0b3356a88b6fc5966c452c4c9b1b5e4a",
+          "locality": "Satara Road FC",
+          "areaName": "Maharshi Nagar",
+          "costForTwo": "₹400 for two",
+          "cuisines": [
+            "Biryani",
+            "North Indian",
+            "Pastas",
+            "Punjabi",
+            "Desserts",
+            "Beverages"
+          ],
+          "avgRating": 3.9,
+          "feeDetails": {
+            "restaurantId": "156118",
+            "fees": [
+              {
+                "name": "BASE_DISTANCE",
+                "fee": 3200
+              },
+              {
+                "name": "BASE_TIME"
+              },
+              {
+                "name": "ANCILLARY_SURGE_FEE"
+              }
+            ],
+            "totalFee": 3200
+          },
+          "parentId": "7918",
+          "avgRatingString": "3.9",
+          "totalRatingsString": "500+",
+          "sla": {
+            "deliveryTime": 23,
+            "lastMileTravel": 1.9,
+            "serviceability": "SERVICEABLE",
+            "slaString": "23 mins",
+            "lastMileTravelString": "1.9 km",
+            "iconType": "ICON_TYPE_EMPTY"
+          },
+          "availability": {
+            "nextCloseTime": "2023-08-23 02:00:00",
+            "opened": true
+          },
+          "badges": {
+            
+          },
+          "isOpen": true,
+          "type": "F",
+          "badgesV2": {
+            "entityBadges": {
+              "textBased": {
+                
+              },
+              "imageBased": {
+                
+              },
+              "textExtendedBadges": {
+                
+              }
+            }
+          },
+          "aggregatedDiscountInfoV3": {
+            "header": "50% OFF",
+            "subHeader": "UPTO ₹100"
+          },
+          "loyaltyDiscoverPresentationInfo": {
+            "badgeType": "BADGE_TYPE_OFFER_PACK",
+            "offerSubText": "with offer pack",
+            "nonSwiggyOneFreedelMessage": "FREE DELIVERY"
+          },
+          "orderabilityCommunication": {
+            "title": {
+              
+            },
+            "subTitle": {
+              
+            },
+            "message": {
+              
+            },
+            "customIcon": {
+              
+            }
+          },
+          "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+              "lottie": {
+                
+              },
+              "video": {
+                
+              }
+            }
+          },
+          "reviewsSummary": {
+            
+          },
+          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+          "restaurantOfferPresentationInfo": {
+            
+          }
+        },
+        "analytics": {
+          
+        },
+        "cta": {
+          "link": "swiggy://menu?restaurant_id=156118",
+          "text": "RESTAURANT_MENU",
+          "type": "DEEPLINK"
+        }
+      },
+      {
+        "info": {
+          "id": "14272",
+          "name": "Cafe Coffee Day",
+          "cloudinaryImageId": "b925459fbc1faf59f02f7289eb079a74",
+          "locality": "Market Yard",
+          "areaName": "Satara Road",
+          "costForTwo": "₹300 for two",
+          "cuisines": [
+            "Beverages",
+            "Cafe",
+            "Snacks",
+            "Desserts",
+            "Burgers",
+            "Ice Cream",
+            "Bakery",
+            "Fast Food"
+          ],
+          "avgRating": 4,
+          "feeDetails": {
+            "restaurantId": "14272",
+            "fees": [
+              {
+                "name": "BASE_DISTANCE",
+                "fee": 3200
+              },
+              {
+                "name": "BASE_TIME"
+              },
+              {
+                "name": "ANCILLARY_SURGE_FEE"
+              }
+            ],
+            "totalFee": 3200
+          },
+          "parentId": "1",
+          "avgRatingString": "4.0",
+          "totalRatingsString": "1K+",
+          "sla": {
+            "deliveryTime": 22,
+            "lastMileTravel": 1.8,
+            "serviceability": "SERVICEABLE",
+            "slaString": "22 mins",
+            "lastMileTravelString": "1.8 km",
+            "iconType": "ICON_TYPE_EMPTY"
+          },
+          "availability": {
+            "nextCloseTime": "2023-08-22 22:00:00",
+            "opened": true
+          },
+          "badges": {
+            
+          },
+          "isOpen": true,
+          "type": "F",
+          "badgesV2": {
+            "entityBadges": {
+              "imageBased": {
+                
+              },
+              "textExtendedBadges": {
+                
+              },
+              "textBased": {
+                
+              }
+            }
+          },
+          "aggregatedDiscountInfoV3": {
+            "header": "50% OFF",
+            "subHeader": "UPTO ₹100"
+          },
+          "loyaltyDiscoverPresentationInfo": {
+            "badgeType": "BADGE_TYPE_OFFER_PACK",
+            "offerSubText": "with offer pack",
+            "nonSwiggyOneFreedelMessage": "FREE DELIVERY"
+          },
+          "orderabilityCommunication": {
+            "title": {
+              
+            },
+            "subTitle": {
+              
+            },
+            "message": {
+              
+            },
+            "customIcon": {
+              
+            }
+          },
+          "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+              "lottie": {
+                
+              },
+              "video": {
+                
+              }
+            }
+          },
+          "reviewsSummary": {
+            
+          },
+          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+          "restaurantOfferPresentationInfo": {
+            
+          }
+        },
+        "analytics": {
+          
+        },
+        "cta": {
+          "link": "swiggy://menu?restaurant_id=14272",
+          "text": "RESTAURANT_MENU",
+          "type": "DEEPLINK"
+        }
+      }
   ];
   
